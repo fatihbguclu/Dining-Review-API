@@ -16,6 +16,9 @@ public class Restaurant {
     @Column(name = "RESTAURANT_NAME")
     private String restaurantName;
 
+    @Column(name = "POST_CODE")
+    private String postcode;
+
     @Column(name = "REVIEW_SCORE")
     private Float reviewScore;
 
