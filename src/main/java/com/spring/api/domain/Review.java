@@ -22,6 +22,9 @@ public class Review {
     @Column(name = "SCORE")
     private int score;
 
+    @Column(name = "RESTAURANT_ID")
+    private Long restaurantId;
+
     @Column(name = "REVIEW_STATUS")
     @Enumerated(EnumType.STRING)
     private AdminReviewStatus reviewStatus;
